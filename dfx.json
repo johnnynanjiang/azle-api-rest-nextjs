@@ -7,7 +7,7 @@
       "main": "backend/index.ts",
       "candid": "backend/index.did",
       "candid_gen": "automatic",
-      "build": "npx azle backend",
+      "build": "npx azle backend --native-compilation",
       "wasm": ".azle/backend/backend.wasm",
       "gzip": true,
       "assets": [["backend/database/migrations", "migrations"]],
