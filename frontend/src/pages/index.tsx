@@ -1,4 +1,6 @@
 import Header from "@components/header";
+import { Page } from "../0xPass/page"
+
 import { Identity } from "@dfinity/agent";
 import React, { ChangeEvent, FormEvent, useEffect, useState } from "react";
 
@@ -69,6 +71,7 @@ export default function IcConnectPage(): JSX.Element {
   return (
     <>
       <Header />
+      <Page />
       <main className="p-6">
         <h1 className="text-2xl text-center">Build Fullstack dApps with Azle and Ares</h1>
 
