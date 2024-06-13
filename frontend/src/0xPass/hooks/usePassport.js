@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { WebauthnSigner } from "@0xpass/webauthn-signer";
 import { Passport } from "@0xpass/passport";
 
-export function usePassport({
+export function twPassport({
   ENCLAVE_PUBLIC_KEY,
   scope_id,
   endpoint = "https://tiramisu.0xpass.io",
